@@ -1,5 +1,7 @@
 # Awesome Audio Softwares
 
+*[日本語](README.ja.md)*
+
 A curated list of awesome software for audio processing, music visualization, and sound analysis.
 
 ## Contents
