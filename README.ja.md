@@ -32,10 +32,10 @@
 - [Ardour](https://ardour.org/) - プロ向けオープンソース DAW。オーディオ/MIDI 録音・ミキシング・オートメーション、プラグインホスト（LV2、VST2/VST3、AU、LADSPA）。Linux / macOS / Windows。
 - [LMMS](https://lmms.io/) - エレクトロニック向けオープンソース DAW。パターンシーケンス、ピアノロール、内蔵シンセ/エフェクト、VST/SoundFont。([GitHub](https://github.com/LMMS/lmms))
 - [Qtractor](https://qtractor.sourceforge.io/) - Qt ベースの Linux DAW。MIDI/オーディオ、JACK 親和のルーティング。
-- [Zrythm](https://www.zrythm.org/) - タイムライン編集・オートメーション・LV2/VST/CLAP 対応の現代的 GPL DAW。
+- [Zrythm](https://www.zrythm.org/) - タイムライン編集・オートメーション・LV2/VST/CLAP 対応の現代的 GPL DAW。v2（C++/Qt で書き直し）は 2026 年時点でアルファテスト中。
 - [Stargate](https://github.com/stargatedaw/stargate) - ルーティング行列と内蔵プラグインを備えた軽量クロスプラットフォーム DAW。低スペック向けも意識。
 - [Waveform Free](https://www.tracktion.com/products/waveform-free) - Tracktion Waveform の無料版。プラグインホスト付きのフル DAW（登録が必要）。
-- [Cakewalk by BandLab](https://www.bandlab.com/cakewalk) - かつての SONAR 系のフル機能 Windows DAW。BandLab 経由で無料配布。
+- [Cakewalk Sonar](https://www.cakewalk.com/sonar) - フル機能の Windows DAW。提供終了した Cakewalk by BandLab（旧 SONAR 系）の後継。メンバーシップ不要の無料ティアあり、既存の `.cwp` プロジェクトも開ける。
 
 ### 商用（参考）
 
@@ -54,7 +54,7 @@
 
 録音、クリーンアップ、ポッドキャスト、ファイル編集向け。
 
-- [Audacity](https://www.audacityteam.org/) - 無料オープンソースのマルチトラック音声エディタ/レコーダ。ポッドキャストや簡易編集に定番。VST3/Nyquist。([GitHub](https://github.com/audacity/audacity))
+- [Audacity](https://www.audacityteam.org/) - 無料オープンソースのマルチトラック音声エディタ/レコーダ。ポッドキャストや簡易編集に定番。VST3/Nyquist。Audacity 4（2026年9月）で非破壊・重ね/グループ化可能なクリップ、UI 刷新、ワークスペースを導入。([GitHub](https://github.com/audacity/audacity)、[変更履歴](https://www.audacityteam.org/changelog/))
 - [Tenacity](https://tenacityaudio.org/) - Audacity のコミュニティフォーク。libre 寄りの既定とプラグイン形式（VST、LV2、LADSPA、AU）。([GitHub](https://github.com/tenacityteam/tenacity))
 - [Ocenaudio](https://www.ocenaudio.com/) - リアルタイムエフェクトプレビュー、VST、強力なスペクトログラムを備えた無料クロスプラットフォームエディタ。
 
@@ -77,6 +77,9 @@ FX スイート、リスニング向けツール、処理チェーン。
 
 - [LSP Plugins](https://lsp-plug.in/) - EQ・ダイナミクス・メーター・空間系など大規模なオープンソースプロセッサ群（LV2/LADSPA/VST/CLAP およびスタンドアロン）。
 - [EffeTune](https://github.com/Frieve-A/effetune) - Frieve-A による、音楽鑑賞体験を向上させるリアルタイムオーディオエフェクトプロセッサー。
+- [Airwindows Consolidated](https://www.airwindows.com/consolidated/) - Chris Johnson による無料・MIT ライセンスの Airwindows エフェクト全種を 1 つにまとめたプラグイン（CLAP/VST3/AU/LV2、macOS/Windows/Linux）。
+- [Neural Amp Modeler](https://www.neuralampmodeler.com/) - ニューラルネットでギターアンプ/ペダルをキャプチャ・再生する無料オープンソースプラグイン。コミュニティのモデルが豊富。([GitHub](https://github.com/sdatkinson/NeuralAmpModelerPlugin))
+- [Ultimate Vocal Remover](https://github.com/anjok07/ultimatevocalremovergui) - Demucs や MDX-Net などのモデルを使う AI ステム分離（ボーカル/伴奏/ドラム等）のオープンソース GUI。
 - ホスト内蔵 FX - 上記 DAW の多くは有用な EQ・ダイナミクス・ディレイ・リバーブを同梱。主要チェーンは耐久性のある公式ドキュメントを優先。
 
 ---
@@ -87,6 +90,7 @@ FX スイート、リスニング向けツール、処理チェーン。
 
 - [VCV Rack](https://vcvrack.com/) - 仮想 Eurorack モジュラーシンセ。無料の Rack Free と商用モジュール。DAW プラグインあり。
 - [Cardinal](https://cardinal.kx.studio/) - VCV Rack 系のオープンソースモジュラー（プラグイン/スタンドアロン）。([GitHub](https://github.com/DISTRHO/Cardinal))
+- [plugdata](https://plugdata.org/) - Pure Data をプラグイン（VST3/AU/LV2/CLAP）およびスタンドアロンで使える、モダンなビジュアルパッチング GUI。([GitHub](https://github.com/plugdata-team/plugdata))
 - [Bespoke Synth](https://bespokesynth.com/) - ノードベースのモジュラーシンセ/DAW ハイブリッド。複雑なルーティングと VST ホスト。([GitHub](https://github.com/BespokeSynth/BespokeSynth))
 - [Surge XT](https://surge-synthesizer.github.io/) - オープンソースのハイブリッドシンセ（ウェーブテーブル/FM など）。VST3/AU/LV2/CLAP。([GitHub](https://github.com/surge-synthesizer/surge))
 - [Vital](https://vital.audio/) - スペクトルワーピング型ウェーブテーブルシンセ（無料＋有料ティア）。
@@ -135,6 +139,7 @@ FX スイート、リスニング向けツール、処理チェーン。
 
 - [JACK](https://jackaudio.org/) - プロ向け低レイテンシ音声接続キット。Linux スタジオグラフの中核として依然重要。
 - [PipeWire](https://pipewire.org/) - PulseAudio と JACK を置き換え/橋渡しできる現代的な Linux マルチメディアサーバー。
+- [SonoBus](https://sonobus.net/) - リモートセッションや共同作業向けの、低レイテンシ P2P ネットワーク音声ストリーミング（OSS、スタンドアロン/プラグイン）。([GitHub](https://github.com/sonosaurus/sonobus))
 
 ---
 

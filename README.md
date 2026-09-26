@@ -32,10 +32,10 @@ Digital audio workstations for multitrack recording, MIDI, mixing, and arranging
 - [Ardour](https://ardour.org/) - Professional open-source DAW for audio/MIDI recording, mixing, automation, and plugin hosting (LV2, VST2/VST3, AU, LADSPA). Linux, macOS, Windows.
 - [LMMS](https://lmms.io/) - Open-source DAW focused on electronic music: pattern sequencing, piano roll, built-in synths/effects, VST/SoundFont support. ([GitHub](https://github.com/LMMS/lmms))
 - [Qtractor](https://qtractor.sourceforge.io/) - Qt-based Linux DAW for MIDI and audio with JACK-friendly routing.
-- [Zrythm](https://www.zrythm.org/) - Modern GPL DAW with timeline editing, automation, and LV2/VST/CLAP plugin support.
+- [Zrythm](https://www.zrythm.org/) - Modern GPL DAW with timeline editing, automation, and LV2/VST/CLAP plugin support. v2 (C++/Qt rewrite) is in alpha testing as of 2026.
 - [Stargate](https://github.com/stargatedaw/stargate) - Lightweight cross-platform DAW with a routing matrix and built-in plugin suite; aims to run well on modest hardware.
 - [Waveform Free](https://www.tracktion.com/products/waveform-free) - Free edition of Tracktion Waveform; full DAW feature set with plugin hosting (registration required).
-- [Cakewalk by BandLab](https://www.bandlab.com/cakewalk) - Full-featured Windows DAW (formerly SONAR); free download via BandLab.
+- [Cakewalk Sonar](https://www.cakewalk.com/sonar) - Full-featured Windows DAW; successor to the now-retired Cakewalk by BandLab (formerly SONAR). Free tier usable without a membership; opens existing `.cwp` projects.
 
 ### Commercial (reference)
 
@@ -54,7 +54,7 @@ Widely used commercial DAWs; listed for interoperability and workflow context.
 
 Multitrack or destructive editors for recording, cleanup, podcasts, and file work.
 
-- [Audacity](https://www.audacityteam.org/) - Free, open-source multitrack audio editor and recorder; widely used for podcasts, cleanup, and simple editing. VST3/Nyquist plugins. ([GitHub](https://github.com/audacity/audacity))
+- [Audacity](https://www.audacityteam.org/) - Free, open-source multitrack audio editor and recorder; widely used for podcasts, cleanup, and simple editing. VST3/Nyquist plugins. Audacity 4 (Sep 2026) brings non-destructive, overlapping/groupable clips, a redesigned UI, and workspaces. ([GitHub](https://github.com/audacity/audacity), [Changelog](https://www.audacityteam.org/changelog/))
 - [Tenacity](https://tenacityaudio.org/) - Community fork of Audacity focused on libre defaults and plugin formats (VST, LV2, LADSPA, AU). ([GitHub](https://github.com/tenacityteam/tenacity))
 - [Ocenaudio](https://www.ocenaudio.com/) - Free cross-platform audio editor with real-time effects preview, VST support, and a strong spectrogram view.
 
@@ -77,6 +77,9 @@ FX suites, listening tools, and processing chains.
 
 - [LSP Plugins](https://lsp-plug.in/) - Large open-source suite of studio processors (EQ, dynamics, metering, spatial, etc.) in LV2/LADSPA/VST/CLAP and standalone forms.
 - [EffeTune](https://github.com/Frieve-A/effetune) - Real-time audio effect processor by Frieve-A designed for enthusiasts to enhance music listening.
+- [Airwindows Consolidated](https://www.airwindows.com/consolidated/) - All of Chris Johnson's free, MIT-licensed Airwindows effects in a single plugin (CLAP/VST3/AU/LV2) for macOS, Windows, and Linux.
+- [Neural Amp Modeler](https://www.neuralampmodeler.com/) - Free, open-source neural-network guitar amp/pedal capture and playback plugin; large community model library. ([GitHub](https://github.com/sdatkinson/NeuralAmpModelerPlugin))
+- [Ultimate Vocal Remover](https://github.com/anjok07/ultimatevocalremovergui) - Open-source GUI for AI stem separation (vocals/instrumental/drums, etc.) using Demucs, MDX-Net, and other models.
 - Stock / host FX - Most DAWs above ship useful EQ, dynamics, delay, and reverb; prefer durable host docs when choosing a primary chain.
 
 ---
@@ -87,6 +90,7 @@ Instruments, modular environments, and drum machines.
 
 - [VCV Rack](https://vcvrack.com/) - Virtual Eurorack modular synthesizer; free Rack Free edition plus commercial modules; DAW plugins available.
 - [Cardinal](https://cardinal.kx.studio/) - Open-source modular synthesizer / VCV Rack fork as plugin and standalone. ([GitHub](https://github.com/DISTRHO/Cardinal))
+- [plugdata](https://plugdata.org/) - Pure Data as a plugin (VST3/AU/LV2/CLAP) and standalone app with a modern visual patching GUI. ([GitHub](https://github.com/plugdata-team/plugdata))
 - [Bespoke Synth](https://bespokesynth.com/) - Modular node-based synth/DAW hybrid with complex routing and VST hosting. ([GitHub](https://github.com/BespokeSynth/BespokeSynth))
 - [Surge XT](https://surge-synthesizer.github.io/) - Open-source hybrid synthesizer (wavetable / FM / etc.) as VST3/AU/LV2/CLAP. ([GitHub](https://github.com/surge-synthesizer/surge))
 - [Vital](https://vital.audio/) - Spectral warping wavetable synthesizer (free + paid tiers).
@@ -135,6 +139,7 @@ Low-latency audio plumbing used under many Linux (and some cross-platform) tools
 
 - [JACK](https://jackaudio.org/) - Professional low-latency audio connection kit; still central to many Linux studio graphs.
 - [PipeWire](https://pipewire.org/) - Modern Linux multimedia server that can replace/bridge PulseAudio and JACK for apps and pro-audio graphs.
+- [SonoBus](https://sonobus.net/) - Open-source, low-latency peer-to-peer network audio streaming for remote jamming and collaboration; standalone and plugin. ([GitHub](https://github.com/sonosaurus/sonobus))
 
 ---
 
