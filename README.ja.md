@@ -16,6 +16,7 @@
 - [音楽ビジュアライゼーション](#音楽ビジュアライゼーション)
 - [オーディオ解析・メーター](#オーディオ解析メーター)
 - [DJ・ライブ](#djライブ)
+- [音声入力・TTS](#音声入力tts)
 - [インフラ・I/O](#インフラio)
 - [ライブラリ・フレームワーク](#ライブラリフレームワーク)
 - [関連リスト](#関連リスト)
@@ -140,6 +141,13 @@ FX スイート、リスニング向けツール、処理チェーン。
 
 ---
 
+## 音声入力・TTS
+
+- [Wispr Flow](https://wisprflow.ai/) - あらゆるアプリで音声を整った文章に変換する AI 音声入力。Mac / Windows / iPhone / Android 対応、無料プランあり。*(クローズドソース)*
+- [Speechify](https://speechify.com/) - 60 以上の言語・1,000 以上の音声、速度調整、音声タイピング、OCR スキャンを備えたテキスト読み上げ。Mac / Windows / iOS / Android / ブラウザ拡張に対応。*(クローズドソース)*
+
+---
+
 ## インフラ・I/O
 
 多くの Linux（および一部クロスプラットフォーム）ツールの下で使う低レイテンシ音声配管。
@@ -184,6 +192,7 @@ FX スイート、リスニング向けツール、処理チェーン。
 [shvyac](https://github.com/shvyac) が管理しているキュレーションリストの一覧:
 
 - [awesome-AI-Powered-Executive-Dashboards](https://github.com/shvyac/awesome-AI-Powered-Executive-Dashboards) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-AI-Powered-Executive-Dashboards?style=flat&label=%E2%AD%90)
+- [awesome-ai-dev-tools](https://github.com/shvyac/awesome-ai-dev-tools) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ai-dev-tools?style=flat&label=%E2%AD%90)
 - [awesome-ai-tool-for-mechanical-engineering](https://github.com/shvyac/awesome-ai-tool-for-mechanical-engineering) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ai-tool-for-mechanical-engineering?style=flat&label=%E2%AD%90)
 - [awesome-audio-softwares](https://github.com/shvyac/awesome-audio-softwares) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-audio-softwares?style=flat&label=%E2%AD%90)
 - [awesome-azure-ai-dynamics365-security](https://github.com/shvyac/awesome-azure-ai-dynamics365-security) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-azure-ai-dynamics365-security?style=flat&label=%E2%AD%90)

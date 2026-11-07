@@ -16,6 +16,7 @@ A curated list of useful audio software — DAWs, editors, plugin hosts, open-so
 - [Music visualization](#music-visualization)
 - [Audio analysis & metering](#audio-analysis--metering)
 - [DJ & live](#dj--live)
+- [Voice typing & text-to-speech](#voice-typing--text-to-speech)
 - [Infrastructure & I/O](#infrastructure--io)
 - [Libraries & frameworks](#libraries--frameworks)
 - [Related lists](#related-lists)
@@ -140,6 +141,13 @@ Spectrograms, MIR tools, loudness meters, and review utilities.
 
 ---
 
+## Voice typing & text-to-speech
+
+- [Wispr Flow](https://wisprflow.ai/) - AI voice dictation that turns speech into polished text in any app; Mac, Windows, iPhone, and Android, with a free tier. *(closed source)*
+- [Speechify](https://speechify.com/) - Text-to-speech reader with 1,000+ voices in 60+ languages, adjustable speed, voice typing, and OCR scanning; Mac, Windows, iOS, Android, and browser extensions. *(closed source)*
+
+---
+
 ## Infrastructure & I/O
 
 Low-latency audio plumbing used under many Linux (and some cross-platform) tools.
@@ -184,6 +192,7 @@ See [LICENSE](LICENSE).
 All curated lists maintained by [shvyac](https://github.com/shvyac):
 
 - [awesome-AI-Powered-Executive-Dashboards](https://github.com/shvyac/awesome-AI-Powered-Executive-Dashboards) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-AI-Powered-Executive-Dashboards?style=flat&label=%E2%AD%90)
+- [awesome-ai-dev-tools](https://github.com/shvyac/awesome-ai-dev-tools) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ai-dev-tools?style=flat&label=%E2%AD%90)
 - [awesome-ai-tool-for-mechanical-engineering](https://github.com/shvyac/awesome-ai-tool-for-mechanical-engineering) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ai-tool-for-mechanical-engineering?style=flat&label=%E2%AD%90)
 - [awesome-audio-softwares](https://github.com/shvyac/awesome-audio-softwares) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-audio-softwares?style=flat&label=%E2%AD%90)
 - [awesome-azure-ai-dynamics365-security](https://github.com/shvyac/awesome-azure-ai-dynamics365-security) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-azure-ai-dynamics365-security?style=flat&label=%E2%AD%90)
