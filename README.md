@@ -123,6 +123,7 @@ Real-time visuals driven by audio or MIDI.
 
 Spectrograms, MIR tools, loudness meters, and review utilities.
 
+- [AIAC LUFS Meter & Fake FLAC Checker](https://aiac.app/lufs-meter/) - Browser-local ITU-R BS.1770-4 loudness & 4x oversampled True Peak meter alongside an 80-slice FFT lossless FLAC spectrogram analyzer (zero uploads).
 - [Sonic Visualiser](https://www.sonicvisualiser.org/) - Open-source app for detailed visualization, analysis, and annotation of music recordings; Vamp feature plugins. ([GitHub](https://github.com/sonic-visualiser/sonic-visualiser) ![GitHub stars](https://img.shields.io/github/stars/sonic-visualiser/sonic-visualiser?style=flat&label=%E2%AD%90))
 - [Spek](https://github.com/alexkay/spek) ![GitHub stars](https://img.shields.io/github/stars/alexkay/spek?style=flat&label=%E2%AD%90) - Lightweight open-source acoustic spectrum analyser (spectrogram) for checking encodes and transfers. Last release 0.8.5 (2023); the former spek.cc domain no longer hosts the project.
 - [Prism](https://github.com/Boof2015/prism) ![GitHub stars](https://img.shields.io/github/stars/Boof2015/prism?style=flat&label=%E2%AD%90) - Free open-source meter/visualizer rack (spectrum, scope, vectorscope, spectrogram, VU, LUFS) as a desktop app, VST3/AU/CLAP plugins, and a terminal UI.
